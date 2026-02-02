@@ -46,6 +46,7 @@ After establishing a connection, clients can send and receive data using send() 
 ## Use Cases of Socket Programming:
 Socket programming finds applications in various domains, including web development, file transfer protocols, online gaming, and real-time communication. It is the foundation for protocols like HTTP, FTP, and SMTP, which power the internet. Socket programming enables the development of both server and client applications, facilitating the exchange of information between devices in a networked environment.
 ## Algorithm:
+```
 server side:
 # Import socket module 
 import socket             
@@ -79,9 +80,7 @@ while True:
   c.send('Thank you for connecting'.encode()) 
   # Close the connection with the client 
 c.close()
-
-    server_msg = input("Server: ")
-    conn.send(server_msg.encode())
+~~~
 
 conn.close()
 server_socket.close()
