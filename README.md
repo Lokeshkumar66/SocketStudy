@@ -85,10 +85,9 @@ c.close()
 conn.close()
 server_socket.close()
 ## Output:
+<img width="976" height="271" alt="Screenshot 2026-02-02 141820" src="https://github.com/user-attachments/assets/85fe05f5-3288-4f5d-b772-6286f2f562e3" />
+<img width="1000" height="148" alt="Screenshot 2026-02-02 141903" src="https://github.com/user-attachments/assets/80722ca6-5715-4d5e-8f6f-3db0ef4cfcbd" />
 
-<img width="976" height="271" alt="Screenshot 2026-02-02 141820" src="https://github.com/user-attachments/assets/37d8fbe7-b2db-4aa8-86a8-bbe0d59abbad" />
-
-<img width="1000" height="148" alt="Screenshot 2026-02-02 141903" src="https://github.com/user-attachments/assets/a94a519c-0b60-408e-9f5c-bf4d6fbb8025" />
 
 
 
