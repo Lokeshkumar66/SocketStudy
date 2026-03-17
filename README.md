@@ -47,7 +47,7 @@ After establishing a connection, clients can send and receive data using send() 
 Socket programming finds applications in various domains, including web development, file transfer protocols, online gaming, and real-time communication. It is the foundation for protocols like HTTP, FTP, and SMTP, which power the internet. Socket programming enables the development of both server and client applications, facilitating the exchange of information between devices in a networked environment.
 ## Algorithm:
 ~~~
-server side:
+client side:
 # Import socket module 
 import socket             
 
@@ -66,7 +66,7 @@ print (s.recv(1024).decode())
 s.close()
 ~~~
 ~~~
-client side:
+server side:
 import socket             
 # next create a socket object 
 s = socket.socket()         
